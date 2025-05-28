@@ -9,7 +9,7 @@
     background-size: cover;
     /* center */
     text-align: center;
-    padding: 150px 300px;
+    padding: 200px 300px;
 }
 
 .title_section{
@@ -19,6 +19,8 @@
 
     /* color */
     background-color: rgba(230, 201, 173, 0.932);
+
+    border: 9px solid rgb(155, 74, 44);
 }
 .title{
     font-size: 80px;
@@ -48,28 +50,89 @@
     box-shadow: 0 4px 5px rgb(248, 120, 0);
     transition: background-color 0.3s;
     border-radius: 3%;
-    padding:0;
+    padding: 5;
+    text-decoration: none;
 }
 .to_my_fridge_button:hover{
     background-color: rgb(227, 103, 58);
     box-shadow: 0 4px 5px rgb(248, 120, 0);
     transition: background-color 0.3s;
     border-radius: 3%;
-    padding:0;
+    padding:5;
+    text-decoration: none;
+
 }
 .to_my_fridge{
     font-size: 37px;
     padding:0;
     color:rgb(88, 42, 25);
     padding: 5px;
+    text-decoration: none;
+    
 }
 .to_my_fridge:hover{
     font-size: 37px;
     padding:0;
     color:rgb(133, 66, 41);
     padding: 5px;
+    text-decoration: none;
 }
 
-.main{
+
+/* Main */
+#main{
     background-color:antiquewhite;
+    position: relative;
+}
+#fridge{
+    width: 700px;
+    margin: 90px 28%;
+    position: absolute;
+}
+
+
+/* Food Pictures */
+/* #ramen{
+    width: 200px;
+} */
+#banh_mi{
+    width: 180px;
+    height: 140px;
+}
+#apple_pie{
+    width: 200px;
+}
+#cornbread{
+    width: 200px;
+}
+#loaded_smashed_potatoes{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 0;
+
+}
+#hot_pot{
+    width: 150px;
+    margin-bottom: 0;
+}
+#hainan_chicken_rice{
+    margin-bottom: 0;
+}
+#tacos{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+/* #seaweed_soup{
+    margin-left: 30px;
+} */
+.food{
+    width: 140px;
+    margin-bottom: 40px;
+}
+.food_container{
+    /* display: flex; */
+    position: absolute;
+    width: 600px;
+    top: 160px;
+    left: 530px;
 }
