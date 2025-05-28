@@ -1,0 +1,75 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Main Background */
+.background{
+    /* image */
+    background-image: url(../img/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* center */
+    text-align: center;
+    padding: 150px 300px;
+}
+
+.title_section{
+    /* center */
+    text-align: center;
+    padding: 80px 30px;
+
+    /* color */
+    background-color: rgba(230, 201, 173, 0.932);
+}
+.title{
+    font-size: 80px;
+    color: rgb(216, 78, 27);
+    text-shadow: 4px 3px rgb(155, 74, 44);
+    font-weight: bolder;
+}
+.slogan{
+    font-size: 40px;
+    color: rgb(217, 99, 56);
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Button Section */
+.heart_button_heart{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 9%;
+}
+.heart{
+    width: 50px;
+}
+.to_my_fridge_button{
+    background-color: rgb(200, 92, 53);
+    box-shadow: 0 4px 5px rgb(248, 120, 0);
+    transition: background-color 0.3s;
+    border-radius: 3%;
+    padding:0;
+}
+.to_my_fridge_button:hover{
+    background-color: rgb(227, 103, 58);
+    box-shadow: 0 4px 5px rgb(248, 120, 0);
+    transition: background-color 0.3s;
+    border-radius: 3%;
+    padding:0;
+}
+.to_my_fridge{
+    font-size: 37px;
+    padding:0;
+    color:rgb(88, 42, 25);
+    padding: 5px;
+}
+.to_my_fridge:hover{
+    font-size: 37px;
+    padding:0;
+    color:rgb(133, 66, 41);
+    padding: 5px;
+}
+
+.main{
+    background-color:antiquewhite;
+}
