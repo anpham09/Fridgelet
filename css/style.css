@@ -1,5 +1,6 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 /* Main Background */
 .background{
@@ -51,7 +52,6 @@
     transition: background-color 0.3s;
     border-radius: 3%;
     padding: 5;
-    text-decoration: none;
 }
 .to_my_fridge_button:hover{
     background-color: rgb(227, 103, 58);
@@ -59,15 +59,16 @@
     transition: background-color 0.3s;
     border-radius: 3%;
     padding:5;
-    text-decoration: none;
 
+}
+.to_my_fridge_button a {
+    text-decoration: none;
 }
 .to_my_fridge{
     font-size: 37px;
     padding:0;
     color:rgb(88, 42, 25);
     padding: 5px;
-    text-decoration: none;
     
 }
 .to_my_fridge:hover{
@@ -75,7 +76,6 @@
     padding:0;
     color:rgb(133, 66, 41);
     padding: 5px;
-    text-decoration: none;
 }
 
 
@@ -126,13 +126,28 @@
     margin-left: 30px;
 } */
 .food{
+    /* position */
     width: 140px;
     margin-bottom: 40px;
+    padding-right: 10px;
+
+    /* external link */
+    position: relative;
 }
 .food_container{
     /* display: flex; */
     position: absolute;
     width: 600px;
     top: 160px;
+    /* padding-top: 70px; */
     left: 530px;
+    /* padding-left: 130px; */
+    /* padding-bottom: 130px; */
+}
+
+/* External link to food recipes */
+.food_description_container {
+    position: absolute;
+    top: 0;
+    right:0;
 }
