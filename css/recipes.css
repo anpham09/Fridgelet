@@ -1,3 +1,7 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
 body {
     height: 100%;
 }
@@ -24,12 +28,14 @@ html {
     justify-content: left;
     padding-left: 0;
 }
-.title {
+.recipes_title {
     /* margin-top: 63px; */
     /* margin-left: 510px; */
-    color:rgb(216, 78, 27);
-    font-size: 40px;
+    color:rgb(164, 76, 45);
+    text-shadow: 2px 2px rgb(96, 48, 31);
+    font-size: 60px;
     font-weight: bolder;
+    text-align: center;
     /* display: flex; */
 }
 .subtitle {

@@ -128,7 +128,7 @@
 /* #ramen{
     width: 200px;
 } */
-#banh_mi{
+#banh_mi_img{
     width: 180px;
     height: 140px;
 }
@@ -186,6 +186,8 @@
     left: 0;
     padding: 4px;
     padding-bottom: 0;
+    width: 160px;
+    z-index: 100;
 
     /* color */
     background-color: rgba(230, 201, 173, 0.765);
@@ -202,6 +204,7 @@
     font-style: italic;
     font-weight: bold;
     font-size: 17px;
+    margin-bottom: 5px;
 }
 
 .see_details {
@@ -210,3 +213,21 @@
 }
 
 /* When hover food->description appears */
+#banh_mi {
+    /* Size */
+    width: 180px;
+    height: 140px;
+
+    /* Position */
+    position: relative;
+}
+#banh_mi:hover #banh_mi_description_container{
+    display: block;
+}
+
+/* Container */
+#banh_mi_description_container {
+    /* Position */
+    position: absolute;
+    display: none;
+}
