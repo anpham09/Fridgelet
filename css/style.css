@@ -85,7 +85,7 @@
     position: relative;
 }
 #fridge{
-    width: 700px;
+    width: 730px;
     margin: 90px 28%;
     position: absolute;
 }
@@ -128,8 +128,8 @@
 .food{
     /* position */
     width: 140px;
-    margin-bottom: 40px;
-    padding-right: 10px;
+    margin-bottom: 49px;
+    padding-left: 20px;
 
     /* external link */
     position: relative;
@@ -137,7 +137,7 @@
 .food_container{
     /* display: flex; */
     position: absolute;
-    width: 600px;
+    width: 650px;
     top: 160px;
     /* padding-top: 70px; */
     left: 530px;
@@ -147,7 +147,26 @@
 
 /* External link to food recipes */
 .food_description_container {
+    /* position */
     position: absolute;
     top: 0;
-    right:0;
+    left: 0;
+    padding: 4px;
+    padding-bottom: 0;
+
+    /* color */
+    background-color: rgba(230, 201, 173, 0.765);
+    border: 3px solid rgb(171, 80, 47);
+
+}
+.food_description_title {
+    font-size: 20px;
+    color: rgb(216, 78, 27);
+    text-shadow: 1px 1px rgb(155, 74, 44);
+}
+.food_description_content {
+    color: rgb(217, 99, 56);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
 }
