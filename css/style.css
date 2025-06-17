@@ -255,13 +255,13 @@
     display: block;
 }
 
-#haian_chicken_rice {
+#hainan_chicken_rice {
     width: 180px;
     height: 140px;
 
     position: relative;
 }
-#haian_chicken_rice:hover #haian_chicken_rice_description_container{
+#hainan_chicken_rice:hover #hainan_chicken_rice_description_container{
     display: block;
 }
 
@@ -343,6 +343,56 @@
 }
 
 #ramen_description_container {
+    position: absolute;
+    display: none;
+}
+
+#apple_pie_description_container {
+    position: absolute;
+    display: none;
+}
+
+#cornbread_description_container {
+    position: absolute;
+    display: none;
+}
+
+#hainan_chicken_rice_description_container {
+    position: absolute;
+    display: none;
+}
+
+#tacos_description_container {
+    position: absolute;
+    display: none;
+}
+
+#hot_pot_description_container {
+    position: absolute;
+    display: none;
+}
+
+#loaded_smashed_potatoes_description_container {
+    position: absolute;
+    display: none;
+}
+
+#macaroni_description_container {
+    position: absolute;
+    display: none;
+}
+
+#salad_description_container {
+    position: absolute;
+    display: none;
+}
+
+#seaweed_soup_description_container {
+    position: absolute;
+    display: none;
+}
+
+#vietnamese_fruit_cocktail_description_container {
     position: absolute;
     display: none;
 }
