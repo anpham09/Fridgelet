@@ -173,7 +173,7 @@
     width: 650px;
     top: 160px;
     /* padding-top: 70px; */
-    left: 530px;
+    left: 500px;
     /* padding-left: 130px; */
     /* padding-bottom: 130px; */
 }
@@ -225,9 +225,124 @@
     display: block;
 }
 
+#ramen {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#ramen:hover #ramen_description_container{
+    display: block;
+}
+
+#apple_pie {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#apple_pie:hover #apple_pie_description_container{
+    display: block;
+}
+
+#cornbread {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#cornbread:hover #cornbread_description_container{
+    display: block;
+}
+
+#haian_chicken_rice {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#haian_chicken_rice:hover #haian_chicken_rice_description_container{
+    display: block;
+}
+
+#hot_pot {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#hot_pot:hover #hot_pot_description_container{
+    display: block;
+}
+
+#loaded_smashed_potatoes {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#loaded_smashed_potatoes:hover #loaded_smashed_potatoes_description_container{
+    display: block;
+}
+
+#macaroni {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#macaroni:hover #macaroni_description_container{
+    display: block;
+}
+
+#salad {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#salad:hover #salad_description_container{
+    display: block;
+}
+
+#seaweed_soup {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#seaweed_soup:hover #seaweed_soup_description_container{
+    display: block;
+}
+
+#tacos {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#tacos:hover #tacos_description_container{
+    display: block;
+}
+
+#vietnamese_fruit_cocktail {
+    width: 180px;
+    height: 140px;
+
+    position: relative;
+}
+#vietnamese_fruit_cocktail:hover #vietnamese_fruit_cocktail_description_container{
+    display: block;
+}
+
 /* Container */
 #banh_mi_description_container {
     /* Position */
+    position: absolute;
+    display: none;
+}
+
+#ramen_description_container {
     position: absolute;
     display: none;
 }
