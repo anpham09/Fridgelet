@@ -1,22 +1,41 @@
+body {
+    height: 100%;
+}
+html {
+    height: 100%;
+}
 .recipes {
-    background-color: antiquewhite;
+    background: linear-gradient(to left, rgb(245, 150, 26), rgb(242, 211, 170), rgb(245, 150, 26));
+    /* height: 100; */
+    display: flex;
+    /* padding-top: 10px; */
 }
 .sideimg {
-    position: fixed;
-    top: 80px;
+    /* position: fixed; */
+    /* top: 80px; */
     height: 700px;
-    width: 520px;
+    width: 450px;
+    background-color:rgba(144, 88, 15, 0.172);
+}
+
+/* Title */
+.title_container {
+    display: flex;
+    justify-content: left;
+    padding-left: 0;
 }
 .title {
-    margin-top: 63px;
-    margin-left: 510px;
+    /* margin-top: 63px; */
+    /* margin-left: 510px; */
     color:rgb(216, 78, 27);
     font-size: 40px;
     font-weight: bolder;
+    /* display: flex; */
 }
 .subtitle {
-    margin-left: 550px;
-    font-size: 5px;
+    /* margin-left: 550px; */
+    font-size: 35px;
+    /* display: flex; */
 }
 h2 {
     font-size: 20px;
@@ -28,8 +47,28 @@ body, html {
     width: 70px;
     height: 70px;
     margin-left: 10px;
-    background-image: url("../img/other/speaker_removed.jpg");
+    background-image: url("../img/other/speaker_removed.png");
     background-size: cover;
     cursor: pointer;
     display: inline-block;
+}
+.line_break {
+    rotate: 90deg;
+    padding: 0;
+    width: 400px;
+    display: flex;
+    position: absolute;
+    left: 217px;
+    height: 7=800px;
+    top: 330px;
+}
+.line_break1{
+    top: 100px;
+
+}
+.line_break3{
+    top: 550px;
+}
+.recipes_right{
+    padding-left: 30px;
 }
