@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/recipes.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recipes.css">
 
 </head>
 <body>
@@ -19,65 +19,85 @@
     <img src="../img/other/line_break-removebg-preview.png" alt="" class="line_break1 line_break">
     <img src="../img/other/line_break-removebg-preview.png" alt="" class="line_break2 line_break">
     <img src="../img/other/line_break-removebg-preview.png" alt="" class="line_break3 line_break">
+    <!-- <img src="../img/other/line_break-removebg-preview.png" alt="" class="line_break4 line_break"> -->
+    <img src="../img/other/line_break-removebg-preview.png" alt="" class="line_break5 line_break">
+
 
     <div class="recipes">
-        <div><img src="../img/food/removed/banh_mi.png"  alt="Banh mi" class="sideimg"></div>
+        <div>
+            <img src="../img/food/removed/banh_mi.png" alt="Banh mi" class="sideimg">
+        </div>
         <div class="recipes_right">
             <div class="title_container">
-                <div class="subtitle"><div class="speaker" onclick="playSound()"></div></div>
-                <div class="recipes_title">Recipe to make Banh mi</div>
+                <!-- <div class="subtitle">
+                    <div class="speaker" onclick="playSound()"></div>
+                </div> -->
+                <div class="recipes_title">Banh Mi Recipe</div>
             </div>
-        
-            <audio src="" id="audio">Ingredients:</audio>
+    
+            <div class="audio_container">
+                <div class="speaker" onclick="playSound()"></div>
+                <audio src="" id="audio"></audio><span class="step_label">Ingredients:</span>
+            </div>
+            
             <div class="content">
                 <ul>
-                    <li><span><i></i></span></li>
-                    <li><span><i></i></span></li>
-                    <li><span><i></i></span></li>
-                    <li><span><i></i></span></li>
-                    <li><span><i></i></span></li>
-                    <li><span><i></i></span></li>
-                    <li><span><i></i></span></li>
+                    <li><span><i>1 Banh mi</i></span></li>
+                    <li><span><i>100g pork (grilled, roasted, or cold cuts)</i></span></li>
+                    <li><span><i>1/2 cucumber, sliced</i></span></li>
+                    <li><span><i>1 small carrot, julienned</i></span></li>
+                    <li><span><i>1/4 daikon radish, julienned</i></span></li>
+                    <li><span><i>Fresh cilantro sprigs</i></span></li>
+                    <li><span><i>2 tbsp mayonnaise</i></span></li>
+                    <li><span><i>1 tbsp pate (optional)</i></span></li>
+                    <li><span><i>1-2 tsp soy sauce</i></span></li>
+                    <li><span><i>1-2 tsp pickled vegetables (carrot & daikon)</i></span></li>
+                    <!-- <li><span><i>Fresh chili slices (optional)</i></span></li> -->
+                    <li><span><i>Salt and pepper to taste</i></span></li>
                 </ul>
             </div>
-            <div class="subtitle">Steps:</div>
+            <!-- <div class="subtitle">Steps:</div> -->
             <div class="content">
                 <ol>
                     <li>
-                        <div class="speaker" onclick="playSound()"></div>
-                        <audio src="" id="audio"></audio>Preparation
+                        <div class="audio_container">
+                            <div class="speaker" onclick="playSound()"></div>
+                            <audio src="" id="audio"></audio><span class="step_label">Preparation:</span>
+                        </div>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Slice the baguette lengthwise, leaving a hinge.</li>
+                            <li>Julienne the carrot and daikon, then pickle them in vinegar, sugar, <br>and salt for at least 30 minutes.</li>
+                            <li>Slice cucumber and chili (if using).</li>
+                            <li>Prepare pork (grill, roast, or use cold cuts).</li>
                         </ul>
                     </li>
                     <li>
-                        <div class="speaker" onclick="playSound()"></div>
-                        <audio src="" id="audio"></audio>Sow chees
+                        <div class="audio_container">
+                            <div class="speaker" onclick="playSound()"></div>
+                            <audio src="" id="audio"></audio><span class="step_label">Assemble The Sandwich:</span>
+                        </div>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Spread mayonnaise and pate (if using) on both sides of the baguette.</li>
+                            <li>Layer pork slices inside the baguette.</li>
+                            <li>Add pickled carrot and daikon, cucumber slices, and fresh cilantro.</li>
+                            <li>Drizzle with soy sauce and add chili slices if desired.</li>
                         </ul>
                     </li>
                     <li>
-                        <div class="speaker" onclick="playSound()"></div>
-                        <audio src="" id="audio"></audio>Sow chees
+                        <div class="audio_container">
+                            <div class="speaker" onclick="playSound()"></div>
+                            <audio src="" id="audio"></audio><span class="step_label">Serve:</span>
+                        </div>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Close the baguette and gently press.</li>
+                            <li>Cut the sandwich into portions if desired.</li>
+                            <li>Serve immediately while fresh.</li>
+                            <li>Enjoy immediately!</li>
                         </ul>
                     </li>
                 </ol>
             </div><br>
         </div>
-        
-        
     </div>
     <script src="../js/recipes.js"></script>
 </body>

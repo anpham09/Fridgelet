@@ -1,80 +1,105 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body {
+
+body, html {
     height: 100%;
+    background-color: #fffaf3;
+    color: #3b2f2f;
 }
-html {
-    height: 100%;
-}
+
+/* Recipe Container */
 .recipes {
-    background: linear-gradient(to left, rgb(245, 150, 26), rgb(242, 211, 170), rgb(245, 150, 26));
-    /* height: 100; */
     display: flex;
-    /* padding-top: 10px; */
+    padding: 62px 12px 0px;
+    background: linear-gradient(to left, rgb(245, 150, 26), rgb(242, 211, 170), rgb(245, 150, 26));
+    gap: 40px;
 }
+
 .sideimg {
-    /* position: fixed; */
-    /* top: 80px; */
-    height: 700px;
-    width: 450px;
-    background-color:rgba(144, 88, 15, 0.172);
+    height: 1300px;
+    width: 680px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+.recipes_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Title */
-.title_container {
-    display: flex;
-    justify-content: left;
-    padding-left: 0;
-}
 .recipes_title {
-    /* margin-top: 63px; */
-    /* margin-left: 510px; */
-    color:rgb(164, 76, 45);
-    text-shadow: 2px 2px rgb(96, 48, 31);
-    font-size: 60px;
+    font-size: 52px;
     font-weight: bolder;
+    color: #635112;
+    text-shadow: 2px 1.5px #60301f;
+    padding-top: 15px;
+    margin-bottom: 5px;
     text-align: center;
-    /* display: flex; */
 }
-.subtitle {
-    /* margin-left: 550px; */
-    font-size: 35px;
-    /* display: flex; */
+
+.step_label {
+    font-size: 26px;
+    font-weight: bold;
+    color: #5b3a2f;
+    margin: 20px 0 10px;
+    display: inline-block;
 }
-h2 {
-    font-size: 20px;
-}
-body, html {
-    height: 100%;
-}
+
+/* Speaker Icon */
 .speaker {
-    width: 70px;
-    height: 70px;
-    margin-left: 10px;
+    width: 42px;
+    height: 40px;
     background-image: url("../img/other/speaker_removed.png");
     background-size: cover;
     cursor: pointer;
     display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
 }
+
+/* Ingredients & Steps */
+.content li {
+    line-height: 1.6;
+    font-size: 24px;
+}
+
+.content li span i {
+    color: #733b1a;
+}
+
+/* Section Dividers */
 .line_break {
     rotate: 90deg;
     padding: 0;
     width: 400px;
     display: flex;
     position: absolute;
-    left: 217px;
-    height: 7=800px;
-    top: 330px;
+    left: 480px;
+    top: 400px;
 }
+
 .line_break1{
-    top: 100px;
+    top: 110px;
 
 }
 .line_break3{
-    top: 550px;
+    top: 730px;
+}
+/* .line_break4{
+    top: 880px;
+} */
+.line_break5{
+    top: 1090px;
 }
 .recipes_right{
     padding-left: 30px;
 }
+
