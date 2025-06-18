@@ -146,7 +146,7 @@
 #cornbread{
     width: 200px;
 }
-#loaded_smashed_potatoes{
+/* #loaded_smashed_potatoes{
     width: 200px;
     height: 100px;
     margin-bottom: 0;
@@ -162,11 +162,13 @@
 #tacos{
     margin-right: 20px;
     margin-left: 40px;
-}
+}  */
 /* #seaweed_soup{
     margin-left: 30px;
 } */
-
+#vietnamese_fruit_cocktail {
+    height: 150px;
+}
 
 .food{
     /* position */
@@ -194,12 +196,12 @@
 /* Sửa bài */
 .food_container {
     position: absolute;
-    top: 83px;
+    top: 75px;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 55px 0px;
+    gap: 55px 30px;
     justify-items: center;
     align-items: center;
 }
@@ -207,23 +209,30 @@
 /* External link to food recipes */
 .food_description_container {
     /* position */
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     padding: 4px;
     padding-bottom: 0;
     width: 160px;
     z-index: 100;
+    position: absolute;
+    display: none;
 
     /* color */
     background-color: rgba(230, 201, 173, 0.765);
     border: 3px solid rgb(171, 80, 47);
 
 }
+.food_description_container hr {
+    margin: 8px 5px;
+    border: 1px dashed rgb(150, 10, 10);
+}
 .food_description_title {
     font-size: 20px;
     color: rgb(216, 78, 27);
     text-shadow: 1px 1px rgb(155, 74, 44);
+    /* text-align: center; */
 }
 .food_description_content {
     color: rgb(217, 99, 56);
@@ -236,134 +245,75 @@
 .see_details {
     text-decoration: none;
     color: rgb(201, 73, 27);
+    margin-left: 50px;
+    /* align-items: right; */
 }
 
 /* When hover food->description appears */
-#banh_mi {
-    /* Size */
-    /* width: 180px; */
-    /* height: 140px; */
 
-    /* Position */
-    position: relative;
-}
 #banh_mi:hover #banh_mi_description_container{
     display: block;
 }
 
-#ramen {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #ramen:hover #ramen_description_container{
     display: block;
 }
 
-#apple_pie {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #apple_pie:hover #apple_pie_description_container{
     display: block;
 }
 
-#cornbread {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #cornbread:hover #cornbread_description_container{
     display: block;
 }
 
-#hainan_chicken_rice {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #hainan_chicken_rice:hover #hainan_chicken_rice_description_container{
     display: block;
 }
 
-#hot_pot {
-    /* width: 180px; */
-    /* height: 140px; */
-
-    position: relative;
-}
 #hot_pot:hover #hot_pot_description_container{
     display: block;
 }
 
-#loaded_smashed_potatoes {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #loaded_smashed_potatoes:hover #loaded_smashed_potatoes_description_container{
     display: block;
 }
 
-#macaroni {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #macaroni:hover #macaroni_description_container{
     display: block;
 }
 
-#salad {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #salad:hover #salad_description_container{
     display: block;
 }
 
-#seaweed_soup {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #seaweed_soup:hover #seaweed_soup_description_container{
     display: block;
 }
 
-#tacos {
-    /* width: 180px; */
-    /* height: 140px; */
 
-    position: relative;
-}
 #tacos:hover #tacos_description_container{
     display: block;
 }
 
-#vietnamese_fruit_cocktail {
-    /* width: 170px;
-    height: 220px; */
-
-    position: relative;
-}
 #vietnamese_fruit_cocktail:hover #vietnamese_fruit_cocktail_description_container{
     display: block;
 }
+.description_container_position {
+    position: relative;
+}
 
 /* Container */
-#banh_mi_description_container {
-    /* Position */
+/* #banh_mi_description_container {
+    Position
     position: absolute;
     display: none;
 }
@@ -421,4 +371,4 @@
 #vietnamese_fruit_cocktail_description_container {
     position: absolute;
     display: none;
-}
+} */
