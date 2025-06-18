@@ -18,7 +18,10 @@
     z-index: 9999;
     /* padding-left: 530px; */
 }
-
+.logo {
+    height: 50px;
+    border-radius: 30%;
+}
 .nav_bar div {
     /* margin: 10px 80px; */
     font-size: 24px;
@@ -220,7 +223,7 @@
     display: none;
 
     /* color */
-    background-color: rgba(230, 201, 173, 0.765);
+    background-color: rgba(230, 201, 173, 0.835);
     border: 3px solid rgb(171, 80, 47);
 
 }
@@ -243,10 +246,25 @@
 }
 
 .see_details {
+    position: absolute;
+    top: 78%;
+    left: 30%;
+    width: 100px;
+    padding: 30px 20px;
     text-decoration: none;
     color: rgb(201, 73, 27);
-    margin-left: 50px;
+    /* margin-left: 70px; */
+    /* margin-right: 5px; */
     /* align-items: right; */
+}
+#salad_description_container a {
+    top: 73%;
+}
+#apple_pie_description_container a {
+    top: 74%;
+}
+#hainan_chicken_rice_description_container a {
+    top: 80%;
 }
 
 /* When hover food->description appears */
