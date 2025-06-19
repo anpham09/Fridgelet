@@ -247,7 +247,7 @@
 
 .see_details {
     position: absolute;
-    top: 78%;
+    top: 77.5%;
     left: 30%;
     width: 100px;
     padding: 30px 20px;
@@ -265,6 +265,12 @@
 }
 #hainan_chicken_rice_description_container a {
     top: 80%;
+}
+#cornbread_description_container a{
+    top: 75%;
+}
+#macaroni_description_container a {
+    top: 75%;
 }
 
 /* When hover food->description appears */
