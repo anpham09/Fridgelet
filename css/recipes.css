@@ -57,13 +57,19 @@ body, html {
 .speaker {
     width: 42px;
     height: 40px;
-    background-image: url("../img/other/speaker_removed.png");
+    background-image: url('../img/other/speaker_removed.png');
     background-size: cover;
     cursor: pointer;
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
 }
+.speaker.playing {
+    width: 35px;
+    background-image: url('../img/other/speaker_removed.png');
+    margin-right: 17px;
+}
+
 
 /* Ingredients & Steps */
 .content li {
