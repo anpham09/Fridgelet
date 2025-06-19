@@ -139,7 +139,7 @@
 /* #ramen{
     width: 200px;
 } */
-#banh_mi_img{
+/* #banh_mi_img{
     width: 180px;
     height: 140px;
 }
@@ -147,8 +147,8 @@
     width: 200px;
 }
 #cornbread{
-    width: 200px;
-}
+    width: 150px;
+} */
 /* #loaded_smashed_potatoes{
     width: 200px;
     height: 100px;
@@ -176,7 +176,7 @@
 .food{
     /* position */
     width: 150px;
-    height: 140px;
+    height: 190px;
     object-fit: contain;
     /* margin-bottom: 49px;
 
@@ -199,12 +199,12 @@
 /* Sửa bài */
 .food_container {
     position: absolute;
-    top: 75px;
+    top: 7%;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 55px 10px;
+    gap: 0px 100px;
     justify-items: center;
     align-items: center;
 }
@@ -214,6 +214,8 @@
     /* position */
     /* position: absolute; */
     top: 0;
+    height: 230px;
+    width: 150px;
     left: 0;
     padding: 4px;
     padding-bottom: 0;
@@ -247,17 +249,22 @@
 
 .see_details {
     position: absolute;
-    top: 77.5%;
-    left: 30%;
-    width: 100px;
-    padding: 30px 20px;
+    top: 0%;
+    left: 0%;
+    width: 150px;
+    padding: 20px 0px;
+    /* padding-top: 215px; */
+    padding-top: 126%;
+    padding-left: 20%;
     text-decoration: none;
     color: rgb(201, 73, 27);
+    font-size: 18px;
+    font-weight: bold;
     /* margin-left: 70px; */
     /* margin-right: 5px; */
     /* align-items: right; */
 }
-#salad_description_container a {
+/* #salad_description_container a {
     top: 73%;
 }
 #apple_pie_description_container a {
@@ -271,140 +278,67 @@
 }
 #macaroni_description_container a {
     top: 75%;
-}
+} */
 
 /* When hover food->description appears */
-
-#banh_mi:hover #banh_mi_description_container{
-    display: block;
-}
-
-
-#ramen:hover #ramen_description_container{
-    display: block;
-}
-
-
-#apple_pie:hover #apple_pie_description_container{
-    display: block;
-}
-
-
-#cornbread:hover #cornbread_description_container{
-    display: block;
-}
-
-
-#hainan_chicken_rice:hover #hainan_chicken_rice_description_container{
-    display: block;
-}
-
-#hot_pot:hover #hot_pot_description_container{
-    display: block;
-}
-
-
-#loaded_smashed_potatoes:hover #loaded_smashed_potatoes_description_container{
-    display: block;
-}
-
-
-#macaroni:hover #macaroni_description_container{
-    display: block;
-}
-
-
-#salad:hover #salad_description_container{
-    display: block;
-}
-
-
-#seaweed_soup:hover #seaweed_soup_description_container{
-    display: block;
-}
-
-
-#tacos:hover #tacos_description_container{
-    display: block;
-}
-
-#vietnamese_fruit_cocktail:hover #vietnamese_fruit_cocktail_description_container{
+#banh_mi:hover #banh_mi_description_container,
+#ramen:hover #ramen_description_container,
+#apple_pie:hover #apple_pie_description_container,
+#cornbread:hover #cornbread_description_container,
+#hainan_chicken_rice:hover #hainan_chicken_rice_description_container,
+#hot_pot:hover #hot_pot_description_container,
+#loaded_smashed_potatoes:hover #loaded_smashed_potatoes_description_container,
+#macaroni:hover #macaroni_description_container,
+#salad:hover #salad_description_container,
+#seaweed_soup:hover #seaweed_soup_description_container,
+#tacos:hover #tacos_description_container,
+#vietnamese_fruit_cocktail:hover #vietnamese_fruit_cocktail_description_container {
     display: block;
 }
 .description_container_position {
     position: relative;
+    height: 190px;
+    width: 100px;
 }
-
-/* Container */
-/* #banh_mi_description_container {
-    Position
-    position: absolute;
-    display: none;
-}
-
-#ramen_description_container {
-    position: absolute;
-    display: none;
-}
-
-#apple_pie_description_container {
-    position: absolute;
-    display: none;
-}
-
-#cornbread_description_container {
-    position: absolute;
-    display: none;
-}
-
-#hainan_chicken_rice_description_container {
-    position: absolute;
-    display: none;
-}
-
-#tacos_description_container {
-    position: absolute;
-    display: none;
-}
-
-#hot_pot_description_container {
-    position: absolute;
-    display: none;
-}
-
-#loaded_smashed_potatoes_description_container {
-    position: absolute;
-    display: none;
-}
-
-#macaroni_description_container {
-    position: absolute;
-    display: none;
-}
-
-#salad_description_container {
-    position: absolute;
-    display: none;
-}
-
-#seaweed_soup_description_container {
-    position: absolute;
-    display: none;
-}
-
-#vietnamese_fruit_cocktail_description_container {
-    position: absolute;
-    display: none;
-} */
 
 /* Remove food */
 .remove_btn {
     position: absolute;
+    top: 0;
+    left: 0;
+
     /* right: 5%; */
     background-color: #dabd82;
     color:rgb(133, 66, 41);
     font-weight: bolder;
     border-color: rgb(133, 66, 41);
+    /* z-index: 1000; */
+}
+
+.row1 {
+    z-index: 108;
+}
+.row2 {
+    z-index: 106;
+}
+.row3 {
+    z-index: 104;
+}
+.row4 {
+    z-index: 102;
+}
+
+.de1 {
+    z-index: 107;
+}
+.de2 {
+    z-index: 105;
+}
+.de3 {
+    z-index: 103;
+}
+.de4 {
+    z-index: 101;
 }
 /* Transfer to add_recipe_form page */
 .plus_btn {
@@ -412,6 +346,8 @@
     font-size: 70px;
     border-radius: 50%;
     padding: 0px 40%;
+    /* margin-right: 80px; */
+    margin-top: 30px;
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center;     /* vertical */
@@ -422,4 +358,7 @@
     color:rgb(133, 66, 41);
     font-weight: bolder;
     border-color: rgb(133, 66, 41);
+}
+.plus_btn:hover {
+    background-color: #deba72;
 }

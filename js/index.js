@@ -20,6 +20,8 @@ document.querySelectorAll('.remove_btn').forEach(button=>{
     const foodItem = button.parentElement;
     foodItem.innerHTML = ''; //Clear all items in div
   
+    foodItem.style.height = '190px';
+
     //Add plus button
     const plus = document.createElement('button');
     plus.innerText = '+';
