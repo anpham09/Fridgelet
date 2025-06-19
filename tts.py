@@ -1,7 +1,7 @@
-from gtts import gTTS
+from gtts import gTTS 
 
-text = "Serve: Dollop the baked potatoes with sour cream and sprinkle with chopped chives or green onions. Serve immediately while hot and melty. Loaded smashed potatoes make an excellent side dish or party snack."
-file_name = "loaded_smashed_potatoes_serve.mp3"
+text = "Serve: Spoon the fruit cocktail into glasses or bowls over plenty of crushed ice. Top with extra coconut milk or more fruit if you like. Enjoy this refreshing Vietnamese dessert on a hot day!"
+file_name = "vietnamese_fruit_cocktail_serve.mp3"
 
 # Convert text to speech
 tts = gTTS(text=text, lang='en')
