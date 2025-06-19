@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fridgelet</title>
+    <!-- Font Awesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
 
@@ -11,7 +13,14 @@
 <body>
     <!-- Navigation bar -->
     <div class="nav_bar">
-        <div class="fridge"><a href="#main">My Fridge</a></div>
+        <a href="#main" class="return_homepage">
+            <div class="nav_bar_left">
+                <i class="fa-solid fa-arrow-left"></i>
+                <div class="my_fridge">My Fridge</div>
+            </div>
+        </a>
+        
+        
         <div class="home"><a href="#main_page">Home</a></div>
         <img class="logo" src="./img/cut_logo.png" width="70px"></img>
 
@@ -41,18 +50,18 @@
         <div class="food_container">
             <div id="banh_mi" class="description_container_position">
                 <img class="food" id="banh_mi_img" src="./img/food/removed/banh_mi.png">
-                <button class="remove_btn row1" onclick="">X</button>
+                <button class="remove_btn row1" onclick="" id="banh_mi_remove_btn">Delete</button>
                 <div class="food_description_container de1" id="banh_mi_description_container">
                     <div class="food_description_title">Banh mi</div>
                     <hr>
-                    <div class="food_description_content">A Vietnamese-style sandwich with a crispy baguette, savory meats, pickled vegetables, fresh herbs, and creamy mayo — blending French and Vietnamese flavors in one bite.</div>
+                    <div class="food_description_content">A Vietnamese sandwich with crispy baguette, savory meats, pickled veggies, herbs, and mayo — blending French and Vietnamese flavors in one bite.                    </div>
                     <br><a href="./html/banh_mi.html" class="see_details">>>See details</a>
                 </div>
             </div>
             
             <div id="ramen" class="description_container_position">
                 <img class="food" id="ramen" src="./img/food/removed/ramen.png">
-                <button class="remove_btn row1" onclick="">X</button>
+                <button class="remove_btn row1" onclick="" id="ramen_remove_btn">Delete</button>
                 <div class="food_description_container de1" id="ramen_description_container">
                     <div class="food_description_title">Ramen</div>
                     <hr>
@@ -62,7 +71,7 @@
             </div>
             <div id="macaroni" class="description_container_position">
                 <img class="food" id="macaroni" src="./img/food/removed/macaroni1.png">
-                <button class="remove_btn row1" onclick="">X</button>
+                <button class="remove_btn row1" onclick="" id="macaroni_remove_btn">Delete</button>
                 <div class="food_description_container de1" id="macaroni_description_container">
                     <div class="food_description_title">Macaroni</div>
                     <hr>
@@ -72,17 +81,17 @@
             </div>
             <div id="salad" class="description_container_position">
                 <img class="food" id="salad" src="./img/food/removed/salad1.png">
-                <button class="remove_btn row2" onclick="">X</button>
+                <button class="remove_btn row2" onclick="" id="salad_remove_btn">Delete</button>
                 <div class="food_description_container de2" id="salad_description_container">
                     <div class="food_description_title">Salad</div>
                     <hr>
-                    <div class="food_description_content">A fresh and colorful mix of crisp greens, juicy vegetables, savory toppings, and zesty dressing — blending health and flavor in every bite.</div>
+                    <div class="food_description_content">A fresh and colorful miDelete of crisp greens, juicy vegetables, savory toppings, and zesty dressing — blending health and flavor in every bite.</div>
                     <br><a href="./html/salad.html" class="see_details">>>See details</a>
                 </div>
             </div>
             <div id="apple_pie" class="description_container_position">
                 <img class="food" id="apple_pie" src="./img/food/removed/apple_pie.png">
-                <button class="remove_btn row2" onclick="">X</button>
+                <button class="remove_btn row2" onclick="" id="apple_pie_remove_btn">Delete</button>
                 <div class="food_description_container de2" id="apple_pie_description_container">
                     <div class="food_description_title">Apple Pie</div>
                     <hr>
@@ -92,7 +101,7 @@
             </div>
             <div id="cornbread" class="description_container_position">
                 <img class="food" id="cornbread" src="./img/food/removed/cornbread2.png">
-                <button class="remove_btn row2" onclick="">X</button>
+                <button class="remove_btn row2" onclick="" id="cornbread_remove_btn">Delete</button>
 
                 <div class="food_description_container de2" id="cornbread_description_container">
                     <div class="food_description_title">Cornbread</div>
@@ -103,40 +112,40 @@
             </div>
             <div id="hainan_chicken_rice" class="description_container_position">
                 <img class="food" id="hainan_chicken_rice" src="./img/food/removed/hainan_chicken_rice.png">
-                <button class="remove_btn row3" onclick="">X</button>
+                <button class="remove_btn row3" onclick="" id="hainan_chicken_rice_remove_btn">Delete</button>
 
                 <div class="food_description_container de3" id="hainan_chicken_rice_description_container">
                     <div class="food_description_title">Hainan Chicken Rice</div>
                     <hr>
-                    <div class="food_description_content">A Southeast Asian dish with tender poached chicken, fragrant jasmine rice cooked in chicken broth, and savory dipping sauces — blending simplicity and rich flavor in every bite.</div>
+                    <div class="food_description_content">A Southeast Asian dish of poached chicken, fragrant rice, and savory sauces — blending simplicity and rich flavor in every bite.</div>
                     <br><a href="./html/hainan_chicken_rice.html" class="see_details">>>See details</a>
                 </div>
             </div>
             <div id="hot_pot" class="description_container_position">
                 <img class="food" id="hot_pot" src="./img/food/removed/hot_pot.png">
-                <button class="remove_btn row3" onclick="">X</button>
+                <button class="remove_btn row3" onclick="" id="hot_pot_remove_btn">Delete</button>
 
                 <div class="food_description_container de3" id="hot_pot_description_container">
                     <div class="food_description_title">Hotpot</div>
                     <hr>
-                    <div class="food_description_content">An East Asian communal meal with a simmering pot of flavorful broth, fresh meats, seafood, vegetables, and noodles — blending warmth and togetherness in every bite.</div>
+                    <div class="food_description_content">An East Asian meal with simmering broth, meats, seafood, veggies, and noodles — blending warmth and togetherness in every bite.                    </div>
                     <br><a href="./html/hot_pot.html" class="see_details">>>See details</a>
                 </div>
             </div>
             <div id="loaded_smashed_potatoes" class="description_container_position">
                 <img class="food" id="loaded_smashed_potatoes" src="./img/food/removed/loaded_smashed_potatoes1.png">
-                <button class="remove_btn row3" onclick="">X</button>
+                <button class="remove_btn row3" onclick="" id="loaded_smashed_potatoes_remove_btn">Delete</button>
 
                 <div class="food_description_container de3" id="loaded_smashed_potatoes_description_container">
                     <div class="food_description_title">Loaded Smashed Potatoes</div>
                     <hr>
-                    <div class="food_description_content">A comforting side dish with crispy smashed potatoes, melted cheese, smoky bacon, creamy sour cream, and fresh chives — blending crunch and indulgence in every bite.</div>
+                    <div class="food_description_content">A comforting side of crispy smashed potatoes, cheese, bacon, sour cream, and chives — blending crunch and indulgence in every bite.                    </div>
                     <br><a href="./html/loaded_smashed_potatoes.html" class="see_details">>>See details</a>
                 </div>
             </div>
             <div id="seaweed_soup" class="description_container_position">
                 <img class="food" id="seaweed_soup" src="./img/food/removed/seaweed_soup.png">
-                <button class="remove_btn row4" onclick="">X</button>
+                <button class="remove_btn row4" onclick="" id="seaweed_soup_remove_btn">Delete</button>
 
                 <div class="food_description_container de4" id="seaweed_soup_description_container">
                     <div class="food_description_title">Seaweed Soup</div>
@@ -147,7 +156,7 @@
             </div>
             <div id="tacos" class="description_container_position">
                 <img class="food" id="tacos" src="./img/food/removed/tacos.png">
-                <button class="remove_btn row4" onclick="">X</button>
+                <button class="remove_btn row4" onclick="" id="tacos_remove_btn">Delete</button>
 
                 <div class="food_description_container de4" id="tacos_description_container">
                     <div class="food_description_title">Tacos</div>
@@ -158,7 +167,7 @@
             </div>
             <div id="vietnamese_fruit_cocktail" class="description_container_position">
                 <img class="food" id="vietnamese_fruit_cocktail" src="./img/food/removed/vietnamese_fruit_cocktail.png">
-                <button class="remove_btn row4" onclick="">X</button>
+                <button class="remove_btn row4" onclick="" id="vietnamese_fruit_cocktail_remove_btn">Delete</button>
 
                 <div class="food_description_container de4" id="vietnamese_fruit_cocktail_description_container">
                     <div class="food_description_title">Vietnamese Fruit Cocktail</div>

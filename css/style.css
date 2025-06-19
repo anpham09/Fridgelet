@@ -18,6 +18,13 @@
     z-index: 9999;
     /* padding-left: 530px; */
 }
+.nav_bar_left {
+    display: flex;
+    gap: 5px;
+}
+.fa-arrow-left {
+    color: #453e06d4;
+}
 .logo {
     height: 50px;
     border-radius: 30%;
@@ -29,11 +36,12 @@
     text-decoration: none;
 }
 
-.nav_bar div a {
+.nav_bar div a, .return_homepage {
     text-decoration: none;
     /* color: rgb(231, 171, 149); */
     color: #453e06d4;
     text-shadow: 1px 2px #d0ab61;
+    padding: 15px 0px;
 }
 
 /* Main Background */
@@ -234,9 +242,11 @@
     border: 1px dashed rgb(150, 10, 10);
 }
 .food_description_title {
+    margin-top: 12px;
     font-size: 20px;
     color: rgb(216, 78, 27);
     text-shadow: 1px 1px rgb(155, 74, 44);
+    padding-left: 10%;
     /* text-align: center; */
 }
 .food_description_content {
@@ -258,7 +268,7 @@
     padding-left: 20%;
     text-decoration: none;
     color: rgb(201, 73, 27);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     /* margin-left: 70px; */
     /* margin-right: 5px; */
@@ -295,6 +305,20 @@
 #vietnamese_fruit_cocktail:hover #vietnamese_fruit_cocktail_description_container {
     display: block;
 }
+#banh_mi:hover #banh_mi_remove_btn,
+#ramen:hover #ramen_remove_btn,
+#apple_pie:hover #apple_pie_remove_btn,
+#cornbread:hover #cornbread_remove_btn,
+#hainan_chicken_rice:hover #hainan_chicken_rice_remove_btn,
+#hot_pot:hover #hot_pot_remove_btn,
+#loaded_smashed_potatoes:hover #loaded_smashed_potatoes_remove_btn,
+#macaroni:hover #macaroni_remove_btn,
+#salad:hover #salad_remove_btn,
+#seaweed_soup:hover #seaweed_soup_remove_btn,
+#tacos:hover #tacos_remove_btn,
+#vietnamese_fruit_cocktail:hover #vietnamese_fruit_cocktail_remove_btn {
+    display: block;
+}
 .description_container_position {
     position: relative;
     height: 190px;
@@ -312,10 +336,11 @@
     color:rgb(133, 66, 41);
     font-weight: bolder;
     border-color: rgb(133, 66, 41);
-    /* z-index: 1000; */
+    display: none;
+    z-index: 101;
 }
 
-.row1 {
+/* .row1 {
     z-index: 108;
 }
 .row2 {
@@ -339,7 +364,7 @@
 }
 .de4 {
     z-index: 101;
-}
+} */
 /* Transfer to add_recipe_form page */
 .plus_btn {
     /* Size&Position */
