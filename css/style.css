@@ -204,7 +204,7 @@
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 55px 30px;
+    gap: 55px 10px;
     justify-items: center;
     align-items: center;
 }
@@ -396,3 +396,30 @@
     position: absolute;
     display: none;
 } */
+
+/* Remove food */
+.remove_btn {
+    position: absolute;
+    /* right: 5%; */
+    background-color: #dabd82;
+    color:rgb(133, 66, 41);
+    font-weight: bolder;
+    border-color: rgb(133, 66, 41);
+}
+/* Transfer to add_recipe_form page */
+.plus_btn {
+    /* Size&Position */
+    font-size: 70px;
+    border-radius: 50%;
+    padding: 0px 40%;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    padding-bottom: 5px;
+
+    /* Color */
+    background-color: #dabd82da;
+    color:rgb(133, 66, 41);
+    font-weight: bolder;
+    border-color: rgb(133, 66, 41);
+}
