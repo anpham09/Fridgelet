@@ -3,8 +3,9 @@
 ## To-Do
 <!-- - Record audios -->
 <!-- - Add play and pause function to speakers -->
-- Fix nav bar of other pages 
+<!-- - Fix nav bar of other pages  -->
 <!-- - Re-size image by using html/css/js -->
+- Change pixel of pictures
 
 - Fix layout of fridge
 - Change the default fridge to closed fridge
