@@ -29,20 +29,60 @@
     height: 50px;
     border-radius: 30%;
 }
-.nav_bar div {
+.nav_bar div, .dropbtn {
     /* margin: 10px 80px; */
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.nav_bar div a, .return_homepage {
+.nav_bar div a, .return_homepage, .dropbtn{
     text-decoration: none;
     /* color: rgb(231, 171, 149); */
     color: #453e06d4;
     text-shadow: 1px 2px #d0ab61;
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
+
+.dropbtn {
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+  
+.catalog {
+    position: relative;
+    display: inline-block;
+}
+  
+.catalog-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to left, rgb(177, 125, 20), rgb(226, 207, 162), rgb(193, 143, 5));
+    padding: 2px;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+  
+.catalog-content a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.catalog-content a:hover {
+    background-color: #dabd82;
+    /* padding: 10px; */
+}
+  
+  
+.catalog:hover .catalog-content {
+    display: block;
+}
+  
 
 /* Main Background */
 .background{
