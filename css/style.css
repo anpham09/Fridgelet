@@ -428,3 +428,76 @@
 .plus_btn:hover {
     background-color: #deba72;
 }
+
+@media (max-width: 430px) {
+    .nav_bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav_bar div, .dropbtn {
+        font-size: 18px;
+    }
+
+    .background {
+        padding: 100px 20px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .slogan {
+        font-size: 24px;
+    }
+
+    .heart_button_heart {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .heart {
+        width: 30px;
+        margin: 5px;
+    }
+
+    .to_my_fridge_button {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .to_my_fridge {
+        font-size: 22px;
+    }
+
+    #fridge {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .food_container {
+        position: static;
+        transform: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .food_description_container {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .see_details {
+        font-size: 16px;
+    }
+
+    .plus_btn {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin-top: 50px;
+    }
+}
