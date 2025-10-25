@@ -12,7 +12,6 @@ body, html {
     color: #3b2f2f;
 }
 
-/* Recipe Container */
 .recipes {
     display: flex;
     padding: 62px 12px 0px;
@@ -35,7 +34,6 @@ body, html {
     flex-direction: column;
 }
 
-/* Title */
 .recipes_title {
     font-size: 52px;
     font-weight: bolder;
@@ -54,7 +52,6 @@ body, html {
     display: inline-block;
 }
 
-/* Speaker Icon */
 .speaker {
     width: 42px;
     height: 40px;
@@ -72,7 +69,6 @@ body, html {
 }
 
 
-/* Ingredients & Steps */
 .content li {
     line-height: 1.6;
     font-size: 24px;
@@ -82,7 +78,6 @@ body, html {
     color: #733b1a;
 }
 
-/* Section Dividers */
 .line_break {
     rotate: 90deg;
     padding: 0;
@@ -100,9 +95,6 @@ body, html {
 .line_break3{
     top: 730px;
 }
-/* .line_break4{
-    top: 880px;
-} */
 .line_break5{
     top: 1090px;
 }

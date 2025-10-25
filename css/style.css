@@ -3,7 +3,6 @@
     scroll-behavior: smooth;
 }
 
-/* Nav Bar */
 .nav_bar {
     display: flex;
     position: fixed;
@@ -16,7 +15,6 @@
     border-width: 2px;
     border-color: #9e6a08;
     z-index: 9999;
-    /* padding-left: 530px; */
 }
 .nav_bar_left {
     display: flex;
@@ -30,7 +28,6 @@
     border-radius: 30%;
 }
 .nav_bar div, .dropbtn {
-    /* margin: 10px 80px; */
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -38,7 +35,6 @@
 
 .nav_bar div a, .return_homepage, .dropbtn{
     text-decoration: none;
-    /* color: rgb(231, 171, 149); */
     color: #453e06d4;
     text-shadow: 1px 2px #d0ab61;
     padding: 10px 0px;
@@ -62,7 +58,6 @@
     background: linear-gradient(to left, rgb(177, 125, 20), rgb(226, 207, 162), rgb(193, 143, 5));
     padding: 2px;
     min-width: 160px;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
 }
   
@@ -75,7 +70,6 @@
 }
 .catalog-content a:hover {
     background-color: #dabd82;
-    /* padding: 10px; */
 }
   
   
@@ -84,23 +78,18 @@
 }
   
 
-/* Main Background */
 .background{
-    /* image */
     background-image: url(../img/bg_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* center */
     text-align: center;
     padding: 200px 300px;
 }
 
 .title_section{
-    /* center */
     text-align: center;
     padding: 80px 30px;
 
-    /* color */
     background-color: rgba(230, 201, 173, 0.932);
 
     border: 9px solid rgb(155, 74, 44);
@@ -118,7 +107,6 @@
     font-style: italic;
 }
 
-/* Button Section */
 .heart_button_heart{
     display: flex;
     align-items: center;
@@ -161,106 +149,39 @@
 }
 
 
-/* Main */
-/* #main{
-    background-color:antiquewhite;
-    position: relative;
-}
-#fridge{
-    width: 730px;
-    margin: 90px 28%;
-    position: absolute;
-} */
 
-/* Sửa bài */
 #main {
     background-color:antiquewhite;
     text-align: center;
     position: relative;
 }
 #fridge {
-    width: 50%;
+    width: 100%;
 }
 
-
-/* Food Pictures */
-/* #ramen{
-    width: 200px;
-} */
-/* #banh_mi_img{
-    width: 180px;
-    height: 140px;
-}
-#apple_pie{
-    width: 200px;
-}
-#cornbread{
-    width: 150px;
-} */
-/* #loaded_smashed_potatoes{
-    width: 200px;
-    height: 100px;
-    margin-bottom: 0;
-
-}
-#hot_pot{
-    width: 150px;
-    margin-bottom: 0;
-}
-#hainan_chicken_rice{
-    margin-bottom: 0;
-}
-#tacos{
-    margin-right: 20px;
-    margin-left: 40px;
-}  */
-/* #seaweed_soup{
-    margin-left: 30px;
-} */
-#vietnamese_fruit_cocktail {
-    height: 150px;
-}
 
 .food{
-    /* position */
-    width: 150px;
-    height: 190px;
+    width: 350px;
+    height: 300px;
+
     object-fit: contain;
-    /* margin-bottom: 49px;
-
-    padding-left: 20px; */
-
-    /* external link */
-    /* position: relative; */
 }
-/* .food_container{
-    // display: flex;
-    position: absolute;
-    width: 650px;
-    top: 160px;
-    // padding-top: 70px;
-    left: 500px;
-    // padding-left: 130px;
-    // padding-bottom: 130px;
-} */
 
-/* Sửa bài */
+
 .food_container {
     position: absolute;
-    top: 7%;
-    left: 45%;
+    top: 9%;
+    left: 40%;
     transform: translateX(-50%);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0px 150px;
+    grid-template-columns: auto auto auto;
+    gap: 200px 400px;
+
     justify-items: center;
     align-items: center;
 }
 
-/* External link to food recipes */
 .food_description_container {
-    /* position */
-    /* position: absolute; */
     top: 0;
     height: 230px;
     width: 150px;
@@ -272,8 +193,6 @@
     position: absolute;
     display: none;
 
-
-    /* color */
     background-color: rgba(230, 201, 173, 0.835);
     border: 3px solid rgb(171, 80, 47);
 
@@ -288,7 +207,6 @@
     color: rgb(216, 78, 27);
     text-shadow: 1px 1px rgb(155, 74, 44);
     padding-left: 10%;
-    /* text-align: center; */
 }
 .food_description_content {
     color: rgb(217, 99, 56);
@@ -304,34 +222,14 @@
     left: 0%;
     width: 150px;
     padding: 20px 0px;
-    /* padding-top: 215px; */
     padding-top: 126%;
     padding-left: 20%;
     text-decoration: none;
     color: rgb(10, 101, 64);
     font-size: 20px;
     font-weight: bold;
-    /* margin-left: 70px; */
-    /* margin-right: 5px; */
-    /* align-items: right; */
 }
-/* #salad_description_container a {
-    top: 73%;
-}
-#apple_pie_description_container a {
-    top: 74%;
-}
-#hainan_chicken_rice_description_container a {
-    top: 80%;
-}
-#cornbread_description_container a{
-    top: 75%;
-}
-#macaroni_description_container a {
-    top: 75%;
-} */
 
-/* When hover food->description appears */
 #banh_mi:hover #banh_mi_description_container,
 #ramen:hover #ramen_description_container,
 #apple_pie:hover #apple_pie_description_container,
@@ -366,68 +264,7 @@
     width: 50px;
 }
 
-/* Remove food */
-.remove_btn {
-    position: absolute;
-    top: 0;
-    left: 0;
 
-    /* right: 5%; */
-    background-color: #dabd82;
-    color:rgb(133, 66, 41);
-    font-weight: bolder;
-    border-color: rgb(133, 66, 41);
-    display: none;
-    z-index: 101;
-}
-
-/* .row1 {
-    z-index: 108;
-}
-.row2 {
-    z-index: 106;
-}
-.row3 {
-    z-index: 104;
-}
-.row4 {
-    z-index: 102;
-}
-
-.de1 {
-    z-index: 107;
-}
-.de2 {
-    z-index: 105;
-}
-.de3 {
-    z-index: 103;
-}
-.de4 {
-    z-index: 101;
-} */
-/* Transfer to add_recipe_form page */
-.plus_btn {
-    /* Size&Position */
-    font-size: 25px;
-    border-radius: 50%;
-    padding: 20px 40%;
-    /* margin-right: 80px; */
-    margin-top: 100%;
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center;     /* vertical */
-    /* padding-bottom: 5px; */
-
-    /* Color */
-    background-color: #dabd82da;
-    color:rgb(133, 66, 41);
-    font-weight: bolder;
-    border-color: rgb(133, 66, 41);
-}
-.plus_btn:hover {
-    background-color: #deba72;
-}
 
 @media (max-width: 430px) {
     .nav_bar {
