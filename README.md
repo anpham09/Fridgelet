@@ -53,3 +53,4 @@ I love cuisines, especially homemade dishes. I also enjoy cooking, and I started
 ## Obstacles
 
 This was my first time using Google Text-to-Speech (converted directly in the VS Code terminal), and I found it confusing at first. But once I figured it out, it became incredibly convenient — the MP3 files are saved directly to my project folder!
+# Fridgelet
